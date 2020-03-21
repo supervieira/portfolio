@@ -1,0 +1,50 @@
+.projects{
+    .project{
+        display: flex;
+        align-items: center;
+        // margin: 2vmax 0;
+            .projectContent{
+                width: 50%;
+                    .tools{
+                        display: flex;
+                        flex-wrap: wrap;
+                            li{
+                                margin-right: 2vmax;
+                                color: #cc3f3f;
+                                font-weight: bold;
+                            }
+                    }
+                    a{
+                        text-transform: uppercase;
+                        background: #9bd9d0;
+                        padding: 10px 1vmax;
+                        border-radius: 9px;
+                        color: white;
+                        letter-spacing: 5px;
+                    }
+            }
+            .projectImage{
+                margin-right: 4vmax;
+                width: 50%;
+            }
+    }
+    .project2,
+    .project4,
+    .project6{
+        flex-direction: row-reverse;
+        text-align: right;
+        .projectContent{
+            .tools{
+                justify-content: flex-end;
+                    li{
+                        margin-right: 0;
+                        margin-left: 2vmax;
+                    }
+            }
+        }
+            .projectImage{
+                margin-right: 0;
+                margin-left: 4vmax;
+            }
+    }
+}

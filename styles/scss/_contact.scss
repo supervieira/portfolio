@@ -1,0 +1,61 @@
+.contact{
+    min-height: 100vh;
+    background: #fbb55b;
+    color: white;
+    .contactFlex{
+        display: flex;
+        justify-content: space-between;
+        padding: 4vmax 0;
+    }
+        .contactText{
+            width: 45%;
+            margin-right: 4vmax;
+                p{
+                    margin: 0;
+                }
+                ul{
+                    display: flex;
+                    a{
+                        color: white;
+                        margin-right: 25px;
+                        i{
+                            font-size: 50px;
+                            transition: all 0.5s;
+                        }
+                    }
+                }
+        }
+        form{
+            width: 45%;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+                div{
+                    margin: 2vmax 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+                label{
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    color: #6dbfb3;
+                    font-weight: bold;
+                }
+                input,
+                textarea{
+                    border: none;
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid #6dbfb3;
+                }
+                textarea{
+                    height: 10vmax
+                }
+                button{
+                    background: #cc3f3f;
+                    text-transform: uppercase;
+                    color: white;
+                    letter-spacing: 5px;
+                    width: 100%;
+                }
+        }
+}

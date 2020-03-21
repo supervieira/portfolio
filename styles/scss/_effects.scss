@@ -1,0 +1,34 @@
+header{
+    nav{
+        a:hover{
+            color: #cc3f3f;
+        }
+    }
+}
+.projects{
+    .project{
+        .projectContent{
+            a:hover{
+                cursor: pointer;
+                background: #fbb55b;
+            }
+        }
+    }
+}
+
+// .hamburgerImage:hover{
+//     cursor: url('../assets/ketchup-cursor.png'), auto;
+// }
+
+canvas:hover{
+    cursor:url('../assets/bubble-blower-cursor.png'), auto;
+}
+
+.contact{
+    button:hover{
+        background: #6dbfb3;
+    }
+    i:hover{
+        transform: scale(1.1);
+    }
+}

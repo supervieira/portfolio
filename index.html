@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/15d7c2f7c4.js" crossorigin="anonymous"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- Animate on scroll library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Sarah Vieira</title>
+</head>
+
+<body>
+
+    <header id="particles-js">
+    <!-- <header id="home"> -->
+        <div id="home" class="headerFlex wrapper">
+            <div class="title">
+                <h1 class="animated fadeInUp">sarah vieira</h1>
+                <p class="animated fadeInUp">front-end developer</p>
+            </div>
+
+            <!-- <div id="typed-strings" class="banner">
+                <p><span class="container"></span></p>
+                <p>Will ask to pet your dog</p>
+                <p>Probably eating ramen</p>
+                <p>Front-end developer</p>
+            </div> -->
+        </div>
+
+        <!-- Hambuger menu -->
+        <div class="hamburgerMenuParent">
+            <div class="menuBtn">
+                <img class="hamburgerImage" src="./assets/hamburger.jpg" alt="">
+                <i class="fas fa-times-circle closeMenuImage"></i>
+            </div> 
+    
+            <nav class="hamburgerMenu animated fadeInDown">
+                <ul>
+                    <li>
+                        <a class="menuLink" href="#home">home</a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#about">about</a>                
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#projects">projects</a>
+                    </li>
+                    <li>
+                        <a class="menuLink" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- <header id="particles-js">
+
+    </header> -->
+
+    <main>
+        <section id="about" class="about">
+            <div class="wrapper aboutFlex">
+                <div>
+                    <h2 data-aos="fade-down">about me</h2>
+                    <p class="typed" data-aos="fade-down"></p>
+
+                    <div class="aboutContent" data-aos="fade-right">
+                        <p>Hello world! I'm Sarah and I'm a front-end developer currently calling Toronto my home. I create digital applications that prioritize the most efficient and enjoyable user experience possible. Coding has become a passion of mine - I don't think I really understood true gratification until I successfully refactored an entire React app without breaking anything. I am constantly searching for ways to make the chores of everyday life a little less troublesome so that people have more opportunity to enjoy their lives to the fullest.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="aboutImage" data-aos="fade-left">
+                    <img src="./assets/about-me.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="wrapper">
+                <h2 data-aos="fade-down">skills</h2>
+                <ul class="skillsIcons" data-aos="zoom-in-down">
+                    <li>
+                        <i class="fab fa-html5"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-css3-alt"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-sass"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-js"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-react"></i>
+                    </li>
+                    <!-- <li>
+                        <i></i>
+                    </li> -->
+                    <li>
+                        <i class="fab fa-github"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-mobile-alt"></i>
+                        <!-- <img src="./assets/responsive-design.svg" alt=""> -->
+                    </li>
+                    <li>
+                        <i class="fas fa-universal-access"></i>
+                    </li>
+                    <!-- <li>
+                        <i></i>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="wrapper projects">
+            <h2 data-aos="fade-down">projects</h2>
+
+            <div class="project project1">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/haikyou-app.png" alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-left">
+                    <h3>HaikYou</h3>
+                    <p>A fully responsive React.js application that utilizes the Datamuse API and Google Firebase's Realtime Database to allow users to create their own haiku poems.</p>
+                    <ul class="tools">
+                        <li>React</li>
+                        <li>Javascript</li>
+                        <li>Firebase</li>
+                        <li>APIs</li>
+                        <li>CSS3</li>
+                    </ul>
+                    <div>
+                        <a href="https://haikus-highway.github.io/haikus-highway/">live site</a>
+                        <a href="https://github.com/haikus-highway/haikus-highway">github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project project2">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/fetch-app.png"
+                        alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-right">
+                    <h3>Fetch Pet Health</h3>
+                    <p>A fully responsive React.js application that utlilizes Google Firebase's Realtime Database to allow users to track and log their pet’s health, including diagnostics, treatments and diet. </p>
+                    <ul class="tools">
+                        <li>React</li>
+                        <li>Javascript</li>
+                        <li>Firebase</li>
+                        <li>Sass</li>
+                    </ul>
+                    <div>
+                        <a href="https://supervieira.github.io/sarah-vieira-project-5/">live site</a>
+                        <a href="https://github.com/supervieira/sarah-vieira-project-5">github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project project3">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/eventurer-app.png"
+                        alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-left">
+                    <h3>Eventurer</h3>
+                    <p>A fully responsive jQuery-based application that utlizes the Ticketmaster API to allow users to plan their travels according to events happening at their destination of choice by tracking events in the country of their choice.</p>
+                    <ul class="tools">
+                        <li>jQuery</li>
+                        <li>APIs</li>
+                        <li>Javascript</li>
+                        <li>Sass</li>
+                        <li>HTML5</li>
+                    </ul>
+                    <div>
+                        <a href="https://sarah-ken.github.io/project-four/">live site</a>
+                        <a href="https://github.com/Sarah-Ken/project-four">github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project project4">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/where-to-app.png"
+                        alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-right">
+                    <h3>Where To?</h3>
+                    <p>A fully responsive jQuery-based app that provides users a vacation destination based on their travel preferences.</p>
+                    <ul class="tools">
+                        <li>jQuery</li>
+                        <li>Javascript</li>
+                        <li>Sass</li>
+                        <li>HTML5</li>
+                    </ul>
+                    <div>
+                        <a href="https://supervieira.github.io/sarahVieiraProjectThree/">live site</a>
+                        <a href="https://github.com/supervieira/sarahVieiraProjectThree">github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project project5">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/harper-app.png" alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-left">
+                    <h3>Everday Life With Harper</h3>
+                    <p>A full responsive PSD conversion for a blog-themed website. Utilizes SCSS and Flexbox.</p>
+                    <ul class="tools">
+                        <li>Sass</li>
+                        <li>CSS3</li>
+                        <li>HTML5</li>
+                    </ul>
+                    <div>
+                        <a>live site</a>
+                        <a href="https://github.com/supervieira/sarah-vieira-project-2">github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project project6">
+                <div class="projectImage" data-aos="flip-up" data-aos-anchor-placement="top-center" data-aos-duration="2000">
+                    <img src="./assets/summit-app.png" alt="">
+                </div>
+                <div class="projectContent" data-aos="fade-right">
+                    <h3>Summit</h3>
+                    <p>A fully responsive PSD conversion for a online photography ski-themed portfolio. Utlizes CSS3 and floats.</p>
+                    <ul class="tools">
+                        <li>Sass</li>
+                        <li>CSS3</li>
+                        <li>HTML5</li>
+                    </ul>
+                    <div>
+                        <a href="https://supervieira.github.io/sarah-vieira-project-one/">live site</a>
+                        <a href="https://github.com/supervieira/sarah-vieira-project-one">github</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="wrapper">
+
+                <h2 data-aos="fade-down">let's chat</h2>
+    
+                <div class="contactFlex">
+                    <div class="contactText" data-aos="fade-down">
+                        <p>I'd love to share opportunities or ideas - let's create something together! I am more than up for a cyber chat, so feel free to reach out.</p>
+                        <h3>Connect with me on:</h3>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/supervieira"><i class="fab fa-github-square" title="GitHub"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/supervieira"><i class="fab fa-twitter-square" title="Twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/sarah-vieira-068645161/"><i class="fab fa-linkedin" title="LinkedIn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <form data-aos="fade-up">
+                        <div class="inputContainer">
+                            <label for="nameInput">name</label>
+                            <input placeholder="Your Name" id="nameInput" name="name" type="text">
+                        </div>
+        
+                        <div class="inputContainer">
+                            <label for="emailInput">email</label>
+                            <input placeholder="Your Email" id="emailInput" name="email" type="email">
+                        </div>
+        
+                        <div class="messageContainer">
+                            <label for="message">message</label>
+                            <textarea placeholder="Hi there Sarah. Please find attached cute photos of my new puppy. Cheers, Kind Stranger" id="message" name="message" type="text"></textarea> 
+                        </div>
+        
+                        <button type="submit">send message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer>
+        <p>Sarah Vieira © 2020</p>
+    </footer>
+    
+    <!-- Particles.js -->
+    <script src="particles.js"></script>
+    <script src="./app.js"></script>
+
+    <!-- typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    
+    <!-- jQuery -->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=' crossorigin='anonymous'></script>
+    
+    <!-- Waypoints.js - used to trigger function of element on scroll -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <!-- Animate on scroll library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- script.js -->
+    <script src="./script.js"></script>
+
+</body>
+</html>

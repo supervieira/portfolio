@@ -1,0 +1,62 @@
+.wrapper{
+    width: 80%;
+    // max-width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5vmax;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding-bottom: 4vmax;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 6vmax;
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size: 3vmax;
+}
+
+button{
+    // background: pink;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

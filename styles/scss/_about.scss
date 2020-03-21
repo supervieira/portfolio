@@ -1,0 +1,59 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    .aboutFlex{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 4vmax;
+            .typed{
+                margin: 0;
+                font-size: 2vmax;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+                display: inline-block;
+            }
+            span{
+                font-size: 2vmax;
+            }
+            .aboutImage{
+                align-self:center;
+                    img{
+                        box-shadow: 2vmax 2vmax #fbb55b;
+                    }
+            }
+    }
+}
+
+
+.skills{
+    min-height: 100vh;
+    // background: #ef959c;
+    background: #cc3f3f;
+    color: white;
+        .skillsIcons{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+                li{
+                    width: 25%;
+                    text-align:center;
+                    margin: 6vmax 0;
+                        i{
+                            font-size: 10vmax;
+                        }
+                }
+        }
+}
+
+// Media Queries
+
+@media(max-width:800px){
+    .about{
+        .aboutFlex{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
