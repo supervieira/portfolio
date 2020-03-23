@@ -1,5 +1,10 @@
 .projects{
     overflow-x: hidden;
+    h2{
+        &:after{
+            background: #fbb55b;
+        }
+    }
     .project{
         display: flex;
         align-items: center;
@@ -47,5 +52,31 @@
                 margin-right: 0;
                 margin-left: 4vmax;
             }
+    }
+}
+
+// Media Queries
+
+@media(max-width:800px){
+    .projects{
+        padding-bottom: 10vmax;
+        .project{
+            flex-direction: column;
+                .projectContent,
+                .projectImage{
+                    width: 100%;
+                    margin:0;
+                }
+                .projectContent{
+                    text-align:center;
+                    font-size: 2vmax;
+                        h3{
+                            font-size: 4vmax;
+                        }
+                        .tools{
+                            justify-content: center;
+                        }
+                }
+        }
     }
 }

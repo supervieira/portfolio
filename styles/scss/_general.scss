@@ -34,6 +34,18 @@ h3{
 h2{
     font-size: 6vmax;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+        &:after{
+            content:'';
+            position: absolute;
+            display: block;
+            height: 25%;
+            width: 110%;
+            top: 56%;
+            left:-5%;
+            opacity: 0.75;
+            z-index: -1;
+        }
 }
 
 h3{

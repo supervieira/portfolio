@@ -214,6 +214,19 @@ h3 {
 h2 {
   font-size: 6vmax;
   font-family: 'Playfair Display', serif;
+  display: inline-block;
+}
+
+h2:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 25%;
+  width: 110%;
+  top: 56%;
+  left: -5%;
+  opacity: 0.75;
+  z-index: -1;
 }
 
 h3 {
@@ -422,6 +435,16 @@ canvas {
   grid-gap: 4vmax;
 }
 
+.about .aboutFlex h2 {
+  display: block;
+}
+
+.about .aboutFlex h2:after {
+  background: #cc3f3f;
+  width: 60%;
+  left: -2%;
+}
+
 .about .aboutFlex .typed {
   margin: 0;
   font-size: 2vmax;
@@ -474,9 +497,18 @@ canvas {
 
 .skills .skillsIcons li i {
   font-size: 10vmax;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.skills .skillsIcons li p {
+  visibility: hidden;
 }
 
 @media (max-width: 800px) {
+  .about {
+    padding: 5vmax 0 10vmax 0;
+  }
   .about .aboutFlex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -486,10 +518,23 @@ canvas {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .skills .skillsIcons {
+    margin-top: 8vmax;
+  }
+}
+
+@media (max-width: 600px) {
+  .skills .skillsIcons li {
+    width: 30%;
+  }
 }
 
 .projects {
   overflow-x: hidden;
+}
+
+.projects h2:after {
+  background: #fbb55b;
 }
 
 .projects .project {
@@ -565,10 +610,44 @@ canvas {
   margin-left: 4vmax;
 }
 
+@media (max-width: 800px) {
+  .projects {
+    padding-bottom: 10vmax;
+  }
+  .projects .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .projects .project .projectContent,
+  .projects .project .projectImage {
+    width: 100%;
+    margin: 0;
+  }
+  .projects .project .projectContent {
+    text-align: center;
+    font-size: 2vmax;
+  }
+  .projects .project .projectContent h3 {
+    font-size: 4vmax;
+  }
+  .projects .project .projectContent .tools {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .contact {
   min-height: 100vh;
   background: #fbb55b;
   color: white;
+}
+
+.contact h2:after {
+  background: #6dbfb3;
+  opacity: 1;
 }
 
 .contact .contactFlex {
@@ -705,4 +784,12 @@ canvas:hover {
 .contact i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.skillsIcons li:hover > p {
+  visibility: visible;
+}
+
+.skillsIcons li:hover > i {
+  color: #fbb55b;
 }

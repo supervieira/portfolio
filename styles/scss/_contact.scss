@@ -2,6 +2,12 @@
     min-height: 100vh;
     background: #fbb55b;
     color: white;
+    h2{
+        &:after{
+            background:#6dbfb3;
+            opacity: 1;
+        }
+    }
     .contactFlex{
         display: flex;
         justify-content: space-between;

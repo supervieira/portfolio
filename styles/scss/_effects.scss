@@ -32,3 +32,11 @@ canvas:hover{
         transform: scale(1.1);
     }
 }
+
+.skillsIcons li:hover > p{
+    visibility: visible;
+}
+
+.skillsIcons li:hover > i{
+    color: #fbb55b;
+}

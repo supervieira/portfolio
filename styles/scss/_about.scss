@@ -7,6 +7,14 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 4vmax;
+        h2{
+            display: block;
+            &:after{
+                background: #cc3f3f;
+                width: 60%;
+                left: -2%;
+            }
+        }
             .typed{
                 margin: 0;
                 font-size: 2vmax;
@@ -44,6 +52,10 @@
                     margin: 6vmax 0;
                         i{
                             font-size: 10vmax;
+                            transition: 1s;
+                        }
+                        p{
+                            visibility: hidden;
                         }
                 }
         }
@@ -53,9 +65,26 @@
 
 @media(max-width:800px){
     .about{
+        padding: 5vmax 0 10vmax 0;
         .aboutFlex{
             display: flex;
             flex-direction: column;
+        }
+    }
+
+    .skills{
+        .skillsIcons{
+            margin-top: 8vmax;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .skills{
+        .skillsIcons{
+            li{
+                width: 30%;
+            }
         }
     }
 }
