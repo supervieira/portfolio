@@ -242,6 +242,7 @@ a {
 
 header {
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 header .headerFlex {
@@ -410,6 +411,7 @@ canvas {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow-x: hidden;
 }
 
 .about .aboutFlex {
@@ -447,6 +449,7 @@ canvas {
   min-height: 100vh;
   background: #cc3f3f;
   color: white;
+  overflow-x: hidden;
 }
 
 .skills .skillsIcons {
@@ -483,6 +486,10 @@ canvas {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.projects {
+  overflow-x: hidden;
 }
 
 .projects .project {
@@ -581,6 +588,7 @@ canvas {
 
 .contact .contactText p {
   margin: 0;
+  font-size: 2vmax;
 }
 
 .contact .contactText ul {
@@ -601,7 +609,7 @@ canvas {
 }
 
 .contact form {
-  width: 45%;
+  width: 50%;
   background: white;
   padding: 30px;
   border-radius: 10px;
@@ -644,6 +652,23 @@ canvas {
   width: 100%;
 }
 
+@media (max-width: 810px) {
+  .contact .contactFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .contactFlex .contactText {
+    width: 100%;
+    margin-bottom: 2vmax;
+  }
+  .contact .contactFlex form {
+    width: 100%;
+    font-size: 2vmax;
+  }
+}
+
 footer {
   text-align: center;
   display: -webkit-box;
@@ -657,6 +682,7 @@ footer {
           justify-content: center;
   background: #6dbfb3;
   color: white;
+  font-size: 2vmax;
 }
 
 header nav a:hover {
