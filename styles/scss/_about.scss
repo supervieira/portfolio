@@ -2,6 +2,7 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
+    overflow-x: hidden;
     .aboutFlex{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -31,6 +32,7 @@
     // background: #ef959c;
     background: #cc3f3f;
     color: white;
+    overflow-x: hidden;
         .skillsIcons{
             display: flex;
             flex-wrap: wrap;

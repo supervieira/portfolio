@@ -242,6 +242,7 @@ a {
 
 header {
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 header .headerFlex {
@@ -410,6 +411,7 @@ canvas {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow-x: hidden;
 }
 
 .about .aboutFlex {
@@ -447,6 +449,7 @@ canvas {
   min-height: 100vh;
   background: #cc3f3f;
   color: white;
+  overflow-x: hidden;
 }
 
 .skills .skillsIcons {
@@ -483,6 +486,10 @@ canvas {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.projects {
+  overflow-x: hidden;
 }
 
 .projects .project {
