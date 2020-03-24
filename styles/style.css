@@ -540,23 +540,17 @@ canvas {
   .skills .skillsIcons li {
     width: 25%;
   }
-  .skills .skillsIcons li p {
-    visibility: visible;
-    font-size: 2vmax;
-  }
 }
 
 @media (max-width: 600px) {
   .about .aboutContent {
     font-size: 2vmax;
   }
-  .skills .skillsIcons {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
   .skills .skillsIcons li {
     width: 30%;
+  }
+  .skills .skillsIcons .lastIcon {
+    margin: 0 auto;
   }
 }
 

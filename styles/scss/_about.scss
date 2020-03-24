@@ -81,10 +81,6 @@
             margin-top: 8vmax;
                 li{
                     width: 25%;
-                        p{
-                            visibility: visible;
-                            font-size: 2vmax;
-                        }
                 }
         }
     }
@@ -99,9 +95,11 @@
     
     .skills{
         .skillsIcons{
-            justify-content: center;
                 li{
                     width: 30%;
+                }
+                .lastIcon{
+                    margin: 0 auto;
                 }
         }
     }
