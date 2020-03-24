@@ -419,7 +419,7 @@ canvas {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   header .headerFlex .title {
     background: none;
     padding: 0;
@@ -537,6 +537,9 @@ canvas {
   .skills .skillsIcons {
     margin-top: 8vmax;
   }
+  .skills .skillsIcons li {
+    width: 25%;
+  }
   .skills .skillsIcons li p {
     visibility: visible;
     font-size: 2vmax;
@@ -546,6 +549,11 @@ canvas {
 @media (max-width: 600px) {
   .about .aboutContent {
     font-size: 2vmax;
+  }
+  .skills .skillsIcons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .skills .skillsIcons li {
     width: 30%;

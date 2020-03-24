@@ -80,10 +80,11 @@
         .skillsIcons{
             margin-top: 8vmax;
                 li{
-                    p{
-                        visibility: visible;
-                        font-size: 2vmax;
-                    }
+                    width: 25%;
+                        p{
+                            visibility: visible;
+                            font-size: 2vmax;
+                        }
                 }
         }
     }
@@ -95,11 +96,13 @@
             font-size: 2vmax;
         }
     }
+    
     .skills{
         .skillsIcons{
-            li{
-                width: 30%;
-            }
+            justify-content: center;
+                li{
+                    width: 30%;
+                }
         }
     }
 }
