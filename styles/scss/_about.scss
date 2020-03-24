@@ -37,7 +37,6 @@
 
 .skills{
     min-height: 100vh;
-    // background: #ef959c;
     background: #cc3f3f;
     color: white;
     overflow-x: hidden;
@@ -52,7 +51,7 @@
                     margin: 6vmax 0;
                         i{
                             font-size: 10vmax;
-                            transition: 1s;
+                            transition: 0.5s;
                         }
                         p{
                             visibility: hidden;
@@ -69,6 +68,11 @@
         .aboutFlex{
             display: flex;
             flex-direction: column;
+                h2{
+                    &:after{
+                        width: 30vmax;
+                    }
+                }
         }
     }
 

@@ -31,6 +31,14 @@ header{
                             letter-spacing: 5px;
                         }
                 }
+                .scrollDown{
+                    position: absolute;
+                    bottom: 30px;
+                    z-index: 100;
+                        i{
+                            font-size: 5vmax;
+                        }
+                }
         }
 }
 

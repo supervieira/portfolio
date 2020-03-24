@@ -184,6 +184,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   margin: 0 auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1.5vmax;
@@ -191,7 +195,6 @@ body {
   margin: 0;
   line-height: 2;
   letter-spacing: 1.5px;
-  scroll-behavior: smooth;
 }
 
 section {
@@ -302,6 +305,16 @@ header .headerFlex .title p {
   font-size: 2vmax;
   text-transform: uppercase;
   letter-spacing: 5px;
+}
+
+header .headerFlex .scrollDown {
+  position: absolute;
+  bottom: 30px;
+  z-index: 100;
+}
+
+header .headerFlex .scrollDown i {
+  font-size: 5vmax;
 }
 
 header nav {
@@ -497,8 +510,8 @@ canvas {
 
 .skills .skillsIcons li i {
   font-size: 10vmax;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .skills .skillsIcons li p {
@@ -517,6 +530,9 @@ canvas {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .about .aboutFlex h2:after {
+    width: 30vmax;
   }
   .skills .skillsIcons {
     margin-top: 8vmax;
