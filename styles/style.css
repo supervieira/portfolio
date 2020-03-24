@@ -503,7 +503,7 @@ canvas {
 }
 
 .skills .skillsIcons li {
-  width: 25%;
+  width: 20%;
   text-align: center;
   margin: 6vmax 0;
 }
@@ -537,9 +537,16 @@ canvas {
   .skills .skillsIcons {
     margin-top: 8vmax;
   }
+  .skills .skillsIcons li p {
+    visibility: visible;
+    font-size: 2vmax;
+  }
 }
 
 @media (max-width: 600px) {
+  .about .aboutContent {
+    font-size: 2vmax;
+  }
   .skills .skillsIcons li {
     width: 30%;
   }
@@ -758,9 +765,16 @@ canvas {
     width: 100%;
     margin-bottom: 2vmax;
   }
+  .contact .contactFlex .contactText p {
+    font-size: 2.5vmax;
+    margin-bottom: 2vmax;
+  }
   .contact .contactFlex form {
     width: 100%;
-    font-size: 2vmax;
+    font-size: 2.5vmax;
+  }
+  .contact .contactFlex form textarea {
+    height: 20vmax;
   }
 }
 
@@ -802,10 +816,14 @@ canvas:hover {
           transform: scale(1.1);
 }
 
-.skillsIcons li:hover > p {
+.skillsIcons li:hover > p,
+.skillsIcons li:focus > p,
+.skillsIcons li:active > p {
   visibility: visible;
 }
 
-.skillsIcons li:hover > i {
+.skillsIcons li:hover > i,
+.skillsIcons li:active > i,
+.skillsIcons li:focus > i {
   color: #fbb55b;
 }

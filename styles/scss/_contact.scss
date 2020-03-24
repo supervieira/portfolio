@@ -76,10 +76,17 @@
                 .contactText{
                     width: 100%;
                     margin-bottom: 2vmax;
+                    p{
+                        font-size: 2.5vmax;
+                        margin-bottom: 2vmax;
+                    }
                 }
                 form{
                     width: 100%;
-                    font-size: 2vmax;
+                    font-size: 2.5vmax;
+                        textarea{
+                            height: 20vmax;
+                        }
                 }
         }
     }
