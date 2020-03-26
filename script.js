@@ -10,7 +10,7 @@ $(document).ready(function () {
         $('.hamburgerImage').hide();
     })
     
-    $('.closeMenuImage, .hamburgerMenu').click(function(){
+    $('.closeMenuImage, .menuLink').click(function(){
         $('.hamburgerMenu').addClass('fadeOutUp');
         $('.closeMenuImage').hide();
         $('.hamburgerImage').show();

@@ -796,11 +796,14 @@ footer {
   font-size: 2vmax;
 }
 
-header nav a:hover {
+header nav a:hover,
+header nav a:focus,
+header nav a:active {
   color: #cc3f3f;
 }
 
-.projects .project .projectContent a:hover {
+.projects .project .projectContent a:hover,
+.projects .project .projectContent a:focus {
   cursor: pointer;
   background: #fbb55b;
 }
@@ -809,11 +812,13 @@ canvas:hover {
   cursor: url("../assets/bubble-blower-cursor.png"), auto;
 }
 
-.contact button:hover {
+.contact button:hover,
+.contact button:focus {
   background: #6dbfb3;
 }
 
-.contact i:hover {
+.contact i:hover,
+.contact i:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
