@@ -1,6 +1,8 @@
 header{
     nav{
-        a:hover{
+        a:hover,
+        a:focus,
+        a:active{
             color: #cc3f3f;
         }
     }
@@ -8,7 +10,8 @@ header{
 .projects{
     .project{
         .projectContent{
-            a:hover{
+            a:hover,
+            a:focus{
                 cursor: pointer;
                 background: #fbb55b;
             }
@@ -25,10 +28,12 @@ canvas:hover{
 }
 
 .contact{
-    button:hover{
+    button:hover,
+    button:focus{
         background: #6dbfb3;
     }
-    i:hover{
+    i:hover,
+    i:focus{
         transform: scale(1.1);
     }
 }
