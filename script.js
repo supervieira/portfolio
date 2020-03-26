@@ -5,19 +5,16 @@ $(document).ready(function () {
     // Hamburger menu functionality
     
     $('.hamburgerImage').click(function(){
-        console.log("open menu");
-        $('.hamburgerMenu').show();
+        $('.hamburgerMenu').show().removeClass('fadeOutUp');
         $('.closeMenuImage').show();
         $('.hamburgerImage').hide();
     })
     
-    $('.closeMenuImage').click(function(){
-        console.log("close menu");
-        $('.hamburgerMenu').hide();
+    $('.closeMenuImage, .hamburgerMenu').click(function(){
+        $('.hamburgerMenu').addClass('fadeOutUp');
         $('.closeMenuImage').hide();
         $('.hamburgerImage').show();
     })
-
 
     
     // typed.js
