@@ -796,6 +796,10 @@ footer {
   font-size: 2vmax;
 }
 
+footer span {
+  font-weight: bold;
+}
+
 header nav a:hover,
 header nav a:focus,
 header nav a:active {

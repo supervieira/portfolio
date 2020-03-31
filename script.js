@@ -22,6 +22,8 @@ $(document).ready(function () {
     var typed = new Typed('.typed', {
         strings: ["Will ask to pet your dog.", "Budget travel enthusiast.", "Probably eating ramen.", "Front-end developer."],
         typeSpeed: 30,
+        loop: true,
+        loopCount: 100
     });
     
     /* stop type.js*/
