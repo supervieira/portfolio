@@ -15,22 +15,25 @@
                 left: -2%;
             }
         }
-            .typed{
-                margin: 0;
-                font-size: 2vmax;
-                text-transform: uppercase;
-                letter-spacing: 5px;
-                display: inline-block;
-            }
-            span{
-                font-size: 2vmax;
-            }
-            .aboutImage{
-                align-self:center;
-                    img{
-                        box-shadow: 2vmax 2vmax #fbb55b;
-                    }
-            }
+        .typed{
+            margin: 0;
+            font-size: 2vmax;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            display: inline-block;
+        }
+        span{
+            font-size: 2vmax;
+        }
+        .resume{
+            font-weight: bold;
+        }
+        .aboutImage{
+            align-self:center;
+                img{
+                    box-shadow: 2vmax 2vmax #fbb55b;
+                }
+        }
     }
 }
 

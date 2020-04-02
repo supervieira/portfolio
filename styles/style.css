@@ -470,6 +470,10 @@ canvas {
   font-size: 2vmax;
 }
 
+.about .aboutFlex .resume {
+  font-weight: bold;
+}
+
 .about .aboutFlex .aboutImage {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -804,6 +808,10 @@ header nav a:hover,
 header nav a:focus,
 header nav a:active {
   color: #cc3f3f;
+}
+
+.resume:hover {
+  background: #6dbfb3;
 }
 
 .projects .project .projectContent a:hover,
