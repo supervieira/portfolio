@@ -472,6 +472,7 @@ canvas {
 
 .about .aboutFlex .resume {
   font-weight: bold;
+  margin-bottom: 2vmax;
 }
 
 .about .aboutFlex .aboutImage {
@@ -520,6 +521,7 @@ canvas {
 
 .skills .skillsIcons li p {
   visibility: hidden;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
@@ -598,7 +600,6 @@ canvas {
   background: #9bd9d0;
   padding: 10px 1vmax;
   border-radius: 9px;
-  color: white;
   letter-spacing: 5px;
 }
 
@@ -671,7 +672,6 @@ canvas {
 .contact {
   min-height: 100vh;
   background: #fbb55b;
-  color: white;
 }
 
 .contact h2:after {
