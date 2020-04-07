@@ -8,19 +8,19 @@ header{
     }
 }
 
-.closeMenuImage:hover,
-.closeMenuImage:focus{
-    border: 1px solid red;
-}
-
 .hamburgerImage:hover,
 .hamburgerImage:focus{
-    border: 1px solid red;
+    border-bottom: 5px solid #6dbfb3;
+}
+
+.closeMenuImage:hover,
+.closeMenuImage:focus{
+    border-bottom: 5px solid #cc3f3f;
 }
 
 .goToAbout:hover,
 .goToAbout:focus{
-    color: red;
+    color: #fbb55b;
 }
 
 .resume:hover,
@@ -31,7 +31,7 @@ header{
 .resume a:hover,
 .resume a:focus{
     font-weight: bold;
-    color: red;
+    border-bottom: 5px solid #6dbfb3;
 }
 
 .projects{
@@ -55,9 +55,11 @@ canvas:hover{
     button:focus{
         background: #6dbfb3;
     }
-    i:hover,
-    i:focus{
+    i:hover{
         transform: scale(1.1);
+    }
+    i:focus{
+        color: #6dbfb3;
     }
 }
 
