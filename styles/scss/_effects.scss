@@ -8,8 +8,30 @@ header{
     }
 }
 
-.resume:hover{
+.hamburgerImage:hover,
+.hamburgerImage:focus{
+    border-bottom: 5px solid #6dbfb3;
+}
+
+.closeMenuImage:hover,
+.closeMenuImage:focus{
+    border-bottom: 5px solid #cc3f3f;
+}
+
+.goToAbout:hover,
+.goToAbout:focus{
+    color: #fbb55b;
+}
+
+.resume:hover,
+.resume:focus{
     background: #6dbfb3;
+}
+
+.resume a:hover,
+.resume a:focus{
+    font-weight: bold;
+    border-bottom: 5px solid #6dbfb3;
 }
 
 .projects{
@@ -33,9 +55,11 @@ canvas:hover{
     button:focus{
         background: #6dbfb3;
     }
-    i:hover,
-    i:focus{
+    i:hover{
         transform: scale(1.1);
+    }
+    i:focus{
+        color: #6dbfb3;
     }
 }
 

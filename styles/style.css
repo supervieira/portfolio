@@ -810,8 +810,30 @@ header nav a:active {
   color: #cc3f3f;
 }
 
-.resume:hover {
+.hamburgerImage:hover,
+.hamburgerImage:focus {
+  border-bottom: 5px solid #6dbfb3;
+}
+
+.closeMenuImage:hover,
+.closeMenuImage:focus {
+  border-bottom: 5px solid #cc3f3f;
+}
+
+.goToAbout:hover,
+.goToAbout:focus {
+  color: #fbb55b;
+}
+
+.resume:hover,
+.resume:focus {
   background: #6dbfb3;
+}
+
+.resume a:hover,
+.resume a:focus {
+  font-weight: bold;
+  border-bottom: 5px solid #6dbfb3;
 }
 
 .projects .project .projectContent a:hover,
@@ -829,10 +851,13 @@ canvas:hover {
   background: #6dbfb3;
 }
 
-.contact i:hover,
-.contact i:focus {
+.contact i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.contact i:focus {
+  color: #6dbfb3;
 }
 
 .skillsIcons li:hover > p,
