@@ -471,8 +471,8 @@ canvas {
 }
 
 .about .aboutFlex .resume {
-  font-weight: bold;
   margin-bottom: 2vmax;
+  background: #6dbfb3;
 }
 
 .about .aboutFlex .aboutImage {
