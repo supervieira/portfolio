@@ -16,6 +16,21 @@ $(document).ready(function () {
         $('.hamburgerImage').show();
     })
 
+    $('.hamburgerImage').keypress(function (e) {
+        if (e.originalEvent.code === "Space" || e.originalEvent.code === "Enter"){
+            $('.hamburgerMenu').show().removeClass('fadeOutUp');
+            $('.closeMenuImage').show();
+            $('.hamburgerImage').hide();
+        }
+    })
+
+    $('.closeMenuImage, .menuLink').keypress(function (e) {
+        if (e.originalEvent.code === "Space" || e.originalEvent.code === "Enter") {
+            $('.hamburgerMenu').addClass('fadeOutUp');
+            $('.closeMenuImage').hide();
+            $('.hamburgerImage').show();
+        }
+    })
     
     // typed.js
 
@@ -26,8 +41,6 @@ $(document).ready(function () {
         loopCount: 100
     });
     
-    /* stop type.js*/
-    typed.stop();
     /* hide type.js cursoer */
     $(".typed-cursor").hide();
     /* dedect scroll into view */

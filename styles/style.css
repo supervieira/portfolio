@@ -810,8 +810,30 @@ header nav a:active {
   color: #cc3f3f;
 }
 
-.resume:hover {
+.closeMenuImage:hover,
+.closeMenuImage:focus {
+  border: 1px solid red;
+}
+
+.hamburgerImage:hover,
+.hamburgerImage:focus {
+  border: 1px solid red;
+}
+
+.goToAbout:hover,
+.goToAbout:focus {
+  color: red;
+}
+
+.resume:hover,
+.resume:focus {
   background: #6dbfb3;
+}
+
+.resume a:hover,
+.resume a:focus {
+  font-weight: bold;
+  color: red;
 }
 
 .projects .project .projectContent a:hover,
