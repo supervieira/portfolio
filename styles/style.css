@@ -609,8 +609,7 @@ canvas {
 }
 
 .projects .project2,
-.projects .project4,
-.projects .project6 {
+.projects .project4 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -619,23 +618,20 @@ canvas {
 }
 
 .projects .project2 .projectContent .tools,
-.projects .project4 .projectContent .tools,
-.projects .project6 .projectContent .tools {
+.projects .project4 .projectContent .tools {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
 .projects .project2 .projectContent .tools li,
-.projects .project4 .projectContent .tools li,
-.projects .project6 .projectContent .tools li {
+.projects .project4 .projectContent .tools li {
   margin-right: 0;
   margin-left: 2vmax;
 }
 
 .projects .project2 .projectImage,
-.projects .project4 .projectImage,
-.projects .project6 .projectImage {
+.projects .project4 .projectImage {
   margin-right: 0;
   margin-left: 4vmax;
 }
@@ -750,6 +746,7 @@ canvas {
 
 .contact form textarea {
   height: 10vmax;
+  resize: none;
 }
 
 .contact form button {

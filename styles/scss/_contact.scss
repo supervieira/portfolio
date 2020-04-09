@@ -54,7 +54,8 @@
                     border-bottom: 2px solid #6dbfb3;
                 }
                 textarea{
-                    height: 10vmax
+                    height: 10vmax;
+                    resize: none;
                 }
                 button{
                     background: #cc3f3f;
