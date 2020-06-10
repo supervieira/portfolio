@@ -12,6 +12,7 @@ $(document).ready(function () {
     
     $('.closeMenuImage, .menuLink').click(function(){
         $('.hamburgerMenu').addClass('fadeOutUp');
+        $('.hamburgerMenuParent').css('height', '0px');
         $('.closeMenuImage').hide();
         $('.hamburgerImage').show();
     })
@@ -27,6 +28,7 @@ $(document).ready(function () {
     $('.closeMenuImage, .menuLink').keypress(function (e) {
         if (e.originalEvent.code === "Space" || e.originalEvent.code === "Enter") {
             $('.hamburgerMenu').addClass('fadeOutUp');
+            $('.hamburgerMenuParent').css('height', '0px');
             $('.closeMenuImage').hide();
             $('.hamburgerImage').show();
         }
